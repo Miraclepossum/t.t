@@ -1,0 +1,44 @@
+body {
+    background-color: #B3B6F2; /* This is periwinkle */
+  }
+  
+  h1 {
+    color: #F0F725;
+    text-align: center;
+    font-size: 50px;
+  }
+ 
+  p {
+    color: white;
+    font-family: timesnewroman;
+    padding: 15px 150px 15px 150px;
+    text-align: center;
+    font-size: 25px;
+  } 
+ /*I wanted for the link to the song to not be noticeable unless hover over, cause is more of a resource and i wouldn't want it to take attention from the description */
+a.one:link {color:white;text-decoration:none}
+a.one:visited {color:white;text-decoration:none}
+a.one:hover {color:#D97ED3;text-decoration:underline;}
+
+  a.two:link, a:visited {
+    background-color: #A8BF54;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+  
+  a.two:hover, a:active {
+    background-color: #797ED9;
+  }  /*As for the links I thought it would look better to have them as buttoms so people feel more called to click */
+ 
+  img {
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    border-radius: 50%;
+  }  /*I think the radius looks like a good touch make it merge better with the information around it  */
+  </style>}
