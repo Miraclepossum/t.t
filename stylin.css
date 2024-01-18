@@ -23,7 +23,7 @@ a.one:hover {color:#D97ED3;text-decoration:underline;}
   a.two:link, a:visited {
     background-color: #A8BF54;
     color: white;
-    padding: 14px 25px;
+    padding: 50px 50px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
