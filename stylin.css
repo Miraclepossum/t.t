@@ -1,5 +1,5 @@
 body {
-    background-color: #B3B6F2; /* This is periwinkle */
+    background-color: #26d368; /* This is periwinkle */
   }
   
   h1 {
@@ -10,7 +10,7 @@ body {
  
   p {
     color: white;
-    font-family: Verdana;
+    font-family: 'Gill Sans';
     padding: 15px 150px 15px 150px;
     text-align: center;
     font-size: 25px;
@@ -38,7 +38,7 @@ a.one:hover {color:#D97ED3;text-decoration:underline;}
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 25%;
+    width: 10%;
     border-radius: 50%;
   }  /*I think the radius looks like a good touch make it merge better with the information around it  */
-  </style>}
+  </style>
