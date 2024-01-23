@@ -15,6 +15,7 @@ body {
     text-align: center;
     font-size: 25px;
   } 
+  p.important {border-style:solid; display: inline-block;border-width: 5px;border-color: #D97ED3;}
  /*I wanted for the link to the song to not be noticeable unless hover over, cause is more of a resource and i wouldn't want it to take attention from the description */
 a.one:link {color:white;text-decoration:none}
 a.one:visited {color:white;text-decoration:none}
@@ -29,6 +30,19 @@ a.one:hover {color:#D97ED3;text-decoration:underline;}
     display: inline-block;
   }
   
+  figure{
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    text-indent:0 ;
+    border: thin #A1E0A4 solid;
+    padding-top:100 ;
+  }
+  figcaption{
+    caption-side: bottom;
+  }
+
   a.two:hover, a:active {
     background-color: #797ED9;
   }  /*As for the links I thought it would look better to have them as buttoms so people feel more called to click */
