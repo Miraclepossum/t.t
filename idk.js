@@ -1,1 +1,1 @@
-console.log("Hello World from an external JS file" );
+console.log("Changed console log of JS file." );
